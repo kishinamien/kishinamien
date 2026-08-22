@@ -1,0 +1,4 @@
+# Publish files byte-for-byte. Never apply CRLF conversion.
+# core.autocrlf=true is set globally on this machine; without this the PDFs
+# and DOCX files would be at risk of being rewritten on checkout.
+* -text
